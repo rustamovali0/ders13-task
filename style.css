@@ -1,0 +1,247 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+nav {
+  height: 70px;
+  background-color: rgb(253, 190, 15);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media all and (max-width: 800px){
+    nav {
+        height: 350px;
+        background-color: rgb(21, 235, 153);
+        flex-direction: column;
+
+      }
+      ul {
+display: flex;
+flex-direction: column;
+  align-items: center;
+  font-size: 23px;
+}
+li{
+    border-top: 2px solid black;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+}
+li:hover{
+    width: 200px;
+    height: 50px;
+    background-color: beige;
+}
+.boxes .aa{
+  width: 45%;
+height: 47%;
+background-color: rgb(237, 215, 176);
+
+}
+section .boxes {
+  height: 1100px;
+  flex-wrap: wrap;
+}
+article .about{
+  height:480px ;
+  flex-wrap: wrap;
+}
+.about .bb{
+  width: 44%;
+  height: 40%;
+  font-size: 21px;
+  color: rgb(245, 183, 59);
+}
+nav .logodiv .img1 {
+  display: none;
+}
+nav .logodiv .img2 {
+cursor: pointer;
+  display: block;
+}
+nav .logodiv .img2 {
+  cursor: pointer;
+    display: block;
+  }
+}
+@media all and (max-width: 600px){
+    nav {
+        height: 350px;
+        background-color: rgb(235, 21, 21);
+        flex-direction: column;
+
+      }
+      nav .logodiv .img1 {
+        display: none;
+      }
+      nav .logodiv .img2 {
+      
+        display: block;
+        cursor: pointer;
+      }
+      ul {
+display: flex;
+flex-direction: column;
+  align-items: center;
+  font-size: 23px; color: white;
+}
+li{
+    border-top: 2px solid black;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    font-size: 30px;
+}
+li:hover{
+    width: 2000px;
+    height: 50px;
+    background-color: beige;
+}
+
+.boxes .aa{
+  width: 80%;
+height: 24%;
+background-color: rgb(237, 215, 176);
+
+}
+section .boxes {
+  height: 2500px;
+  flex-direction: column;
+}
+article .about{
+  height:1100px ;
+  flex-direction: column;
+}
+.about .bb{
+  width: 80%;
+  height: 30%;
+  font-size: 30px;
+  color: rgb(245, 183, 59);
+}
+
+}
+/* ------------------------------------------------ */
+.logodiv .img1 {
+  width: 60px;
+  height: 60px;
+}
+.logodiv .img2 {
+  width: 60px;
+  height: 60px;
+  display: none;
+}
+
+
+a {
+  color: black;
+}
+a:hover {
+  background-color: aqua;
+}
+ul {
+    display: flex;
+      align-items: center;
+      font-size: 23px;
+    }
+li {
+  padding: 20px;
+}
+/* ========================================================================================= */
+
+.backgroundimg {
+  background-image: url(jay-zhang-ZByWaPXD2fU-unsplash.jpg);
+  height: 80vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  width: 250px;
+  height: 150px;
+  background-color: rgba(36, 54, 54, 0.288);
+}
+.container h1 {
+  font-size: 50px;
+  color: white;
+  border-bottom: 2px solid white;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.container button {
+  width: 110px;
+  height: 55px;
+  background-color: yellow;
+}
+.buttons {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.boxes {
+  height: 500px;
+  background-color: rgb(207, 204, 205);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.aa {
+  width: 23%;
+  height: 90%;
+  background-color: rgb(237, 215, 176);
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 12px 11px 10px -3px black, 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+.aa img {
+  margin-top: 20px;
+  width: 200px;
+  height: 200px;
+}
+.aa h1 {
+  font-size: 30px;
+}
+.aa p {
+  font-size: 20px;
+}
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    height:150px ;
+}
+.bb{
+    width: 30%;
+    color: rgb(245, 183, 59);
+}
+footer{
+    height: 70px;
+    background-color: black;
+    border-top: 2px solid white;
+    color: white;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+i{
+    margin-right: 30px;
+    color: rgb(246, 227, 194);
+    cursor: pointer;
+}
+i:hover{
+  margin-right: 30px;
+  color: rgb(92, 223, 16);
+}
+button{
+  cursor: pointer;
+}
